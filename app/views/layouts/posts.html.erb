@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Posts: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'scaffold' %>
+  <%= javascript_include_tag 'jquery-1.4.1.min', 'rails.js' %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<p class="notice"><%= notice %></p>
+
+<%= yield %>
+
+</body>
+</html>
