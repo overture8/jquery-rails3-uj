@@ -18,7 +18,7 @@ development:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: prototype_rails3_dev
+  database: jquery_rails3_dev
   pool: 5
   username: root
   password: 
@@ -30,7 +30,7 @@ test:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: prototype_rails3_test
+  database: jquery_rails3_test
   pool: 5
   username: root
   password:
@@ -40,7 +40,7 @@ production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: prototype_rails3_production
+  database: jquery_rails3_production
   pool: 5
   username: root
   password: 
